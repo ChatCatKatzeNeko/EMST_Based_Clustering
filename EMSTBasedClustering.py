@@ -1,4 +1,8 @@
-from EMST import *
+'''
+Code Author: Siyun WANG
+
+'''
+from EMST import * # git repo: https://github.com/ChatCatKatzeNeko/EMST
 import numpy as np
 import scipy
   
@@ -93,6 +97,9 @@ class HEMST(EMSTBasedClustering):
 class FAREMST(EMSTBasedClustering):
     '''
     Fused adaptive ridge based on EMST
+    The article about the Fused adaptive ridge for segmentation:
+    https://hal.archives-ouvertes.fr/tel-02473848/document
+    Authors: V. Goepp, G.Nuel
     
     Class parametres
     ----------------
